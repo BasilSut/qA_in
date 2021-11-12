@@ -69,7 +69,7 @@ void MainWindow::on_pushBtnSrart_clicked()
                 //QString *str_data = new QString(buff) ;
                 for(int s=0; s<8;++s)
                     std::cout<<buff[s];
-                    ui->plainTextEdit_o->setPlainText("buff");
+                    ui->plainTextEdit->setPlainText("buff");
 
                 ++i;
                 if(i==8)
